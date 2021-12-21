@@ -1,4 +1,4 @@
-FROM python:3.7.3-alpine3.9 as prod
+FROM python:3.7.3-alpine3.9
 
 RUN mkdir /app/
 WORKDIR /app/
